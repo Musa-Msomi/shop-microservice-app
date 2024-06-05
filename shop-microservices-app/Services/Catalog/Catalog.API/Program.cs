@@ -1,16 +1,11 @@
 using Carter;
 
-internal class Program
-{
-    private static void Main(string[] args)
-    {
-        var builder = WebApplication.CreateBuilder(args);
 
-        builder.Services.AddCarter();
+var builder = WebApplication.CreateBuilder(args);
 
-        var app = builder.Build();
-        app.MapCarter();
+builder.Services.AddCarter();
 
-        app.Run();
-    }
-}
+var app = builder.Build();
+app.MapCarter();
+
+app.Run();
