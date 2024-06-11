@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{3D37D5F7-9CCC-42DA-AA49-5925A445F3DA}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D0E9AEB2-4137-45A2-8E3A-EBB4ECD9E2BB}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7680C743-78BC-4793-8062-E2D3936EB38E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{3D37D5F7-9CCC-42DA-AA49-5925A445F3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D37D5F7-9CCC-42DA-AA49-5925A445F3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D37D5F7-9CCC-42DA-AA49-5925A445F3DA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D0E9AEB2-4137-45A2-8E3A-EBB4ECD9E2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0E9AEB2-4137-45A2-8E3A-EBB4ECD9E2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0E9AEB2-4137-45A2-8E3A-EBB4ECD9E2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0E9AEB2-4137-45A2-8E3A-EBB4ECD9E2BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7680C743-78BC-4793-8062-E2D3936EB38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7680C743-78BC-4793-8062-E2D3936EB38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7680C743-78BC-4793-8062-E2D3936EB38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7680C743-78BC-4793-8062-E2D3936EB38E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
