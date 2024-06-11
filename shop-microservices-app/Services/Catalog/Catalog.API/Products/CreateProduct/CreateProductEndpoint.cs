@@ -25,6 +25,7 @@ namespace Catalog.API.Products.CreateProduct
                 .WithSummary("Create a new product")
                 .WithDescription("Create a new product");
 
+
         }
     }
     public record CreateProductRequest(string Name, List<string> Category, string Description, string Image, decimal Price);
