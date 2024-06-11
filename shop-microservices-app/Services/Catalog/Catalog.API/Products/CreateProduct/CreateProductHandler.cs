@@ -18,10 +18,10 @@ namespace Catalog.API.Products.CreateProduct
                 Price = command.Price
             };
 
-            // Save to database
-
-            // Will return the Id of the newly created product once saved to the database. Placeholder id for now.
-            return new CreateProductResult(Guid.NewGuid());
+            session.Store(product);
+            await session.SaveChangesAsync(cancellationToken);
+            
+            return new CreateProductResult(product.Id);
         }
     }
     public record CreateProductCommand(string Name, List<string> Category, string Description, string Image, decimal Price) : ICommand<CreateProductResult>;
